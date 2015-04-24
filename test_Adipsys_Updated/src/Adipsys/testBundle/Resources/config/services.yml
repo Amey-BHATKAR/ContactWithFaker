@@ -1,0 +1,6 @@
+parameters:
+    testAdipsys.populate.data: Adipsys\testBundle\Controller\PopulateController
+ 
+services:
+    testAdipsys.populate:
+        class: "%testAdipsys.populate.data%"
